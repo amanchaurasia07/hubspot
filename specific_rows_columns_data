@@ -2,8 +2,8 @@ import pandas as pd
 import requests
 
 def get_all_submission(access_token, hs_survey_id):
-   # sub_url = "https://api.hubspot.com/crm/v3/object/feedback_submissions"
-   # prop_url = "https://api.hubspot.com/crm/v3/propertie/feedback_submissions"
+   # sub_url = "https://api.hubspot.com/crm/v3/objects/feedback_submissions"
+   # prop_url = "https://api.hubspot.com/crm/v3/properties/feedback_submissions"
     headers = {
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json",
